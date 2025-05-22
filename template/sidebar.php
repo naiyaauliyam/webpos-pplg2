@@ -41,7 +41,7 @@
                         </a>
                         <ul class="nav nav-treeview">
                             <li class="nav-item">
-                                <a href="<?= $main_url; ?>supplier/data-supplier.php" class="nav-link <?= menuSupplier() ?>">
+                                <a href="<?= $main_url; ?>supplier/data-supplier.php" class="nav-link <?= menusupplier() ?>">
                                     <i class="far fa-circle nav-icon"></i>
                                     <p>Supplier</p>
                                 </a>
@@ -53,7 +53,7 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link">
+                                <a href="<?= $main_url; ?>barang" class="nav-link <?= menuBarang() ?>">
                                     <i class="far fa-circle nav-icon"></i>
                                     <p>Barang</p>
                                 </a>
